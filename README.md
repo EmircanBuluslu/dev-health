@@ -100,7 +100,6 @@ Not: B
 
 - [Kurulum Rehberi](docs/KURULUM.md)
 - [Debug Kodu Kontrolü](docs/DEBUG_CODE_CHECK.md)
-- [Yayınlama Rehberi](docs/YAYINLAMA.md)
 
 
 ---
