@@ -8,10 +8,6 @@ Bu klasör Dev:Health paketinin detaylı dokümantasyonunu içerir.
 - [Kurulum Rehberi](KURULUM.md) - Paketi nasıl kuracağınızı öğrenin
 - [Debug Kodu Kontrolü](DEBUG_CODE_CHECK.md) - Debug kodu kontrolü hakkında detaylı bilgi
 
-### Geliştirici Dokümantasyonu
-- [Katkıda Bulunma](CONTRIBUTING.md) - Projeye nasıl katkıda bulunacağınızı öğrenin
-- [Yayınlama Rehberi](YAYINLAMA.md) - Paketi Packagist'e nasıl yayınlayacağınızı öğrenin
-
 ## 🔗 Diğer Kaynaklar
 
 - [Ana README](../README.md) - Projenin ana dokümantasyonu
