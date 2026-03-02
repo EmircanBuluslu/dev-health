@@ -1,0 +1,46 @@
+{
+    "name": "devhealth/laravel-health",
+    "description": "Laravel project health checker - scans for security, configuration, and structural risks",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "health", "security", "doctor", "cli", "audit", "checker", "monitoring", "debug", "quality"],
+    "homepage": "https://github.com/EmircanBuluslu/dev-health",
+    "authors": [
+        {
+            "name": "Emircan BULUŞLU",
+            "email": "bulusluemircan723@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/EmircanBuluslu/dev-health/issues",
+        "source": "https://github.com/EmircanBuluslu/dev-health",
+        "docs": "https://github.com/EmircanBuluslu/dev-health/tree/main/docs"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/routing": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevHealth\\LaravelHealth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevHealth\\LaravelHealth\\HealthServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
